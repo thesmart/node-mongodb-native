@@ -1,9 +1,10 @@
-{ "name" :            "mongodb"
-, "description" :     "A node.js driver for MongoDB"
-, "keywords" :        ["mongodb", "mongo", "driver", "db"]
-, "version" :         "1.2.5"
+{ "name" :            "mongodb-thesmart"
+, "description" :     "Smart's distro of a node.js driver for MongoDB"
+, "keywords" :        ["mongodb-thesmart", "mongodb", "mongo", "driver", "db"]
+, "version" :         "0.0.1"
 , "author" :          "Christian Amor Kvalheim <christkv@gmail.com>"
-, "contributors" :  [ "Aaron Heckmann",
+, "contributors" :  [ "John Smart",
+                      "Aaron Heckmann",
                       "Christoph Pojer",
                       "Pau Ramon Revilla",
                       "Nathan White",
@@ -57,9 +58,7 @@
                       "Matt Self"]
 
 , "repository" :    { "type" :  "git"
-                    , "url" :   "http://github.com/mongodb/node-mongodb-native.git" }
-, "bugs" :          { "mail" :  "node-mongodb-native@googlegroups.com"
-                    , "url" :   "http://github.com/mongodb/node-mongodb-native/issues" }
+                    , "url" :   "http://github.com/thesmart/node-mongodb-native.git" }
 , "dependencies" : {
   "bson": "0.1.5"
 }
@@ -76,7 +75,7 @@
   }
 , "config":         { "native" : false }
 , "main":             "./lib/mongodb/index"
-, "homepage":         "http://mongodb.github.com/node-mongodb-native/"
+, "homepage":         "https://github.com/thesmart/node-mongodb-native"
 , "directories" :   { "lib" : "./lib/mongodb" }
 , "engines" :       { "node" : ">=0.6.0" }
 , "scripts": { "test" : "make test_pure" }

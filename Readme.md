@@ -1,3 +1,9 @@
+# This information may be very slow to update
+
+This is thesmart's distro of the ```mongodb``` module.
+
+For official releases, use [mongodb/node-mongodb-native](https://github.com/mongodb/node-mongodb-native).
+
 Up to date documentation
 ========================
 
@@ -8,13 +14,7 @@ Install
 
 To install the most recent release from npm, run:
 
-    npm install mongodb
-
-That may give you a warning telling you that bugs['web'] should be bugs['url'], it would be safe to ignore it (this has been fixed in the development version)
-
-To install the latest from the repository, run::
-
-    npm install path/to/node-mongodb-native
+    npm install mongodb-thesmart
 
 Community
 =========
@@ -396,8 +396,8 @@ Save
 ----
 
 The `save` method is a shorthand for upsert if the document contains an
-`_id`, or an insert if there is no `_id`.
 
+`_id`, or an insert if there is no `_id`.
 Sponsors
 ========
 Just as Felix Geisendörfer I'm also working on the driver for my own startup and this driver is a big project that also benefits other companies who are using MongoDB.
@@ -421,6 +421,7 @@ Credits
 Contributors
 ============
 
+[John Smart](http://www.linkedin.com/in/smartjohn/)
 Aaron Heckmann, Christoph Pojer, Pau Ramon Revilla, Nathan White, Emmerman, Seth LaForge, Boris Filipov, Stefan Schärmeli, Tedde Lundgren, renctan, Sergey Ukustov, Ciaran Jessup, kuno, srimonti, Erik Abele, Pratik Daga, Slobodan Utvic, Kristina Chodorow, Yonathan Randolph, Brian Noguchi, Sam Epstein, James Harrison Fisher, Vladimir Dronnikov, Ben Hockey, Henrik Johansson, Simon Weare, Alex Gorbatchev, Shimon Doodkin, Kyle Mueller, Eran Hammer-Lahav, Marcin Ciszak, François de Metz, Vinay Pulim, nstielau, Adam Wiggins, entrinzikyl, Jeremy Selier, Ian Millington, Public Keating, andrewjstone, Christopher Stott, Corey Jewett, brettkiefer, Rob Holland, Senmiao Liu, heroic, gitfy
 
 License
